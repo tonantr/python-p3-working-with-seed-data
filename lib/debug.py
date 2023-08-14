@@ -17,3 +17,12 @@ if __name__ == '__main__':
 
 
     import ipdb; ipdb.set_trace()
+
+
+fake = Faker()
+fake.name()
+# => 'Samantha Taylor'
+fake.name()
+# => 'Connie Ferguson'
+fake.name()
+# => 'Christopher Ortega'
